@@ -16,7 +16,7 @@ export default function Header() {
     <header className="w-full relative text-white md:py-7 md:px-20">
 
       {/* NAVBAR */}
-      <nav className="flex w-full md:h-14 bg-black px-3 justify-between items-center relative z-50">
+      <nav className="flex w-full md:h-14 bg-black px-3 justify-between items-center rounded-2xl p-4 md:p-7 relative z-50">
         
         <Link href="/">
           <Image src="/homeimg/logo.png" width={97} height={50} alt="Logo" />

@@ -1,8 +1,11 @@
 import AutoMation from "./components/AutoMation";
 import BetterBuying from "./components/BetterBuying";
 import BuyingOnline from "./components/BuyingOnline";
+import CaseStudies from "./components/CaseStudies";
 import MainBanner from "./components/MainBanner";
+import MakeTheBiggest from "./components/MakeTheBiggest";
 import OurApproach from "./components/OurApproach";
+import SectorsSupport from "./components/SectorsSupport";
 
 export default function SolutionService() {
     return (
@@ -11,7 +14,10 @@ export default function SolutionService() {
             <BetterBuying />
             <AutoMation />
             <BuyingOnline/>
-            <OurApproach/> 
+            <OurApproach/>
+            <CaseStudies/> 
+            <SectorsSupport/>
+            <MakeTheBiggest/>
         </>
     )
 }
