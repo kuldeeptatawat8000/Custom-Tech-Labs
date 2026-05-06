@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* ✅ font variables */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-albert);
+  --font-special: var(--font-abeezee);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #000000;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-heading);
+
+}
+
+li {
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+p,
+span {
+  font-family: var(--font-special);
+}
+
+
+
+.homeBannerImg {
+  background: url('/homeimg/herobanner.jpg');
+}
+
+.userExperienceImg {
+  background: url('/homeimg/bestUser.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.boxShap {
+  clip-path: polygon(0% 0%, 100% 0%, 87% 100%, 0% 100%);
+}
+
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* ????????????????????? Solution Service Page Start ?????????????????? */
+
+.solutionserviceBannerImg {
+  background: url('/servicesolimg/BannerPage.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.automationImg {
+  background: url('/servicesolimg/viewOur.png"');
+  background-size: cover;
+}
+
+
+/* 0 0, 100% 0, 100% 45%, 60% 45%, 55% 100%, 0 100% */
