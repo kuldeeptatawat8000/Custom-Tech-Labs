@@ -44,7 +44,7 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       <div
-        className={`fixed top-0 left-0 w-full h-screen bg-black flex flex-col items-center justify-center gap-6 text-2xl transition-all duration-300 ${
+        className={`fixed top-0 left-0 w-full h-screen z-10 bg-black flex flex-col items-center justify-center gap-6 text-2xl transition-all duration-300 ${
           open ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >

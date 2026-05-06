@@ -3,7 +3,7 @@ import { BiError } from "react-icons/bi";
 export default function BetterBuying() {
     return (
         <>
-            <section className="w-full flex flex-col justify-start items-center gap-10 h-auto  z-50">
+            <section className="w-full flex flex-col justify-start items-center gap-10 h-auto ">
                 <div className="w-full h-auto py-10 bg-black text-white flex flex-col gap-3 justify-center py:10 sm:py-7 items-start pl-5 sm:pl-10 md:pl-20 lg:pl-36 rounded-xl">
                     <h1 className="lg:text-[32px] text-[20px] md:text-[25px] font-semibold ">The Foundation of a <span className="text-[#eef430]">Better Buying Experience</span></h1>
                     <h3 className="text-[16px] font-medium">Custom e-commerce solutions designed around real workflows, real customers, and real growth.</h3>
