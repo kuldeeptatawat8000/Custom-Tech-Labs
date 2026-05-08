@@ -5,7 +5,7 @@ export default function OurMission() {
         <>
             <section className="w-full flex flex-col justify-center items-center gap-10 text-center h-auto py-20">
                 <div className="">
-                    <h1 className="px-40 rounded-xl py-4 bg-[#eef430] text-center text-3xl md:text-[32px] font-bold">Our Mission</h1>
+                    <h1 className="md:px-40 px-30 rounded-xl py-4 bg-[#eef430] text-center text-3xl md:text-[32px] font-bold">Our Mission</h1>
                 </div>
                 <div>
                     <h3 className=" text-xl md:text-[24px] font-normal">To make technology human, simple, and smart—for both businesses and the <br/> people they serve.

@@ -10,7 +10,7 @@ export default function Banner() {
 
       <section className=" md:bg-[url('/homeimg/herobanner.jpg')] px-5 py-2 w-full hfull md:h-112.5 md:pt-18.25 md:pl-28.5  flex flex-col gap-5 md:gap-2 text-center md:text-start bg-cover">
         <div className="md:hidden w-full h-52">
-          <Image className="w-full h-full" src={'/homeimg/herobanner.jpg'} width={100} height={100} alt="hero Banner" />
+          <Image className="w-full h-full object-cover object-top" src={'/homeimg/herobanner.jpg'} width={100} height={100} alt="hero Banner" />
         </div>
         <h1 className=" text-2xl sm:text-5xl md:text-[32px] line font-extrabold">Technology Built  for the <br /> Way People Actually Work</h1>
         <p className="text-[16px]  sm:text-2xl">We bridge the gap between complex engineering and human <br className="md:block hidden" /> intuition to build tech that users actually enjoy using.</p>

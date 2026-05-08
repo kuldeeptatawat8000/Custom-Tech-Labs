@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ReadyTechnology() {
   return (
-    <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 py-10 px-4 md:px-20">
+    <div className="w-full flex flex-col-reverse md:flex-row justify-center items-center gap-8 py-10 px-4 md:px-20">
 
       {/* LEFT CONTENT */}
       <div className="w-full md:w-1/2 flex flex-col justify-start items-start gap-3 md:pl-16">
