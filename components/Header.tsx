@@ -32,9 +32,9 @@ export default function Header() {
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex gap-10 text-[14px] items-center">
-          <li><Link href="/solutionservice">About Us</Link></li>
+          <li><Link href="/about">About Us</Link></li>
           <li><Link href="/solutionservice">What we do</Link></li>
-          <li><Link href="/solutionservice">Our Results</Link></li>
+          <li><Link href="/system-integration">Our Results</Link></li>
           <li><Link href="/solutionservice">Insight</Link></li>
           <button className="px-3 py-1 text-black rounded bg-[#EEF430]">
             Contact Us
