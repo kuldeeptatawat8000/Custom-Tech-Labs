@@ -35,9 +35,9 @@ export default function Header() {
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/solutionservice">What we do</Link></li>
           <li><Link href="/system-integration">Our Results</Link></li>
-          <li><Link href="/solutionservice">Insight</Link></li>
+          <li><Link href="/custom-website-developement">Insight</Link></li>
           <button className="px-3 py-1 text-black rounded bg-[#EEF430]">
-            Contact Us
+            <Link href={'/custom-app-developement'}>Contact Us</Link>
           </button>
         </ul>
       </nav>
@@ -59,13 +59,13 @@ export default function Header() {
         <Link href="/about" onClick={() => setOpen(false)}>About Us</Link>
         <Link href="/solutionservice" onClick={() => setOpen(false)}>What we do</Link>
         <Link href="/system-integration" onClick={() => setOpen(false)}>Our Results</Link>
-        <Link href="/solutionservice" onClick={() => setOpen(false)}>Insight</Link>
+        <Link href="/custom-website-developement" onClick={() => setOpen(false)}>Insight</Link>
 
         <button
           onClick={() => setOpen(false)}
           className="px-5 py-2 text-black rounded bg-[#EEF430]"
         >
-          Contact Us
+          <Link href={'/custom-app-developement'}>Contact Us</Link>
         </button>
       </div>
     </header>
