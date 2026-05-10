@@ -13,7 +13,7 @@ export default function SilderProfile() {
         {slideData.map((data, idx) => (
           <div
             key={idx}
-            className="min-w-65 sm:min-w-75 md:min-w-87.5 bg-[#A6A6A6] flex flex-col gap-4 rounded-md p-4 md:p-6"
+            className="min-w-75 sm:min-w-80 md:min-w-87.5 bg-[#A6A6A6] flex flex-col gap-4 rounded-md p-4 md:p-6"
           >
             
             {/* PROFILE */}

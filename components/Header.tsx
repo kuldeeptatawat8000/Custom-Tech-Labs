@@ -17,7 +17,7 @@ export default function Header() {
 
       {/* NAVBAR */}
       <nav className="flex w-full md:h-14 bg-black px-3 justify-between items-center rounded-2xl p-4 md:p-7 relative z-50">
-        
+
         <Link href="/">
           <Image src="/homeimg/logo.png" width={97} height={50} alt="Logo" />
         </Link>
@@ -44,9 +44,8 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       <div
-        className={`fixed top-0 left-0 w-full h-screen z-10 bg-black flex flex-col items-center justify-center gap-6 text-2xl transition-all duration-300 ${
-          open ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
+        className={`fixed top-0 left-0 w-full h-screen z-10 bg-black flex flex-col items-center justify-center gap-6 text-2xl transition-all duration-300 ${open ? "opacity-100 visible" : "opacity-0 invisible"
+          }`}
       >
         {/* CLOSE BUTTON INSIDE */}
         <button
@@ -57,9 +56,9 @@ export default function Header() {
         </button>
 
         <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-        <Link href="/solutionservice" onClick={() => setOpen(false)}>About Us</Link>
+        <Link href="/about" onClick={() => setOpen(false)}>About Us</Link>
         <Link href="/solutionservice" onClick={() => setOpen(false)}>What we do</Link>
-        <Link href="/solutionservice" onClick={() => setOpen(false)}>Our Results</Link>
+        <Link href="/system-integration" onClick={() => setOpen(false)}>Our Results</Link>
         <Link href="/solutionservice" onClick={() => setOpen(false)}>Insight</Link>
 
         <button
