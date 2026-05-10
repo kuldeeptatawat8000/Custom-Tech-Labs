@@ -5,6 +5,7 @@ import YourCustomer from "./components/YourCustomer";
 import OurApproach from "./components/OurApproach";
 import CaseStudio from "./components/CaseStudio";
 import SectorsWe from "./components/SectorsWe";
+import StrongIntegration from "./components/StrongIntegration";
 
 export const metadata: Metadata = {
     title: "System Integration Service Page",
@@ -20,6 +21,7 @@ export default function SystemIntegration() {
             <OurApproach />
             <CaseStudio />
             <SectorsWe />
+            <StrongIntegration />
 
         </>
     )

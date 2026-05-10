@@ -8,7 +8,7 @@ export default function BannerPage() {
                 {/* Mobile Image */}
                 <div className="md:hidden w-full h-62.5 sm:h-80 relative">
                     <Image
-                        src={"/appsimg/main.png"}
+                        src={"/appsimg/main1.png"}
                         fill
                         priority
                         alt="hero Banner"
