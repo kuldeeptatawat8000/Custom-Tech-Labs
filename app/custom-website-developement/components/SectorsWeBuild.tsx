@@ -43,7 +43,7 @@ export default function SectorsWeBuild() {
                 <h2 className="  font-normal text-[12px] md:text-[16px] w-full text-center md:w-1/2">The industries may differ, but the goal stays the same: <br className=" hidden md:block" />
                     Replace fragmented technology with connected digital ecosystems.</h2>
 
-                <div className="w-full h-8.75 bg-black border-t-14 border-[#fee430]"></div>
+
             </section >
 
 

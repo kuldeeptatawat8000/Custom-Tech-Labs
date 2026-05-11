@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const integrationData = [
     "Systems that share data instantly- not overnight.",
@@ -73,11 +74,11 @@ export default function StrongIntegration() {
                         <div className="flex flex-col sm:flex-row gap-4 mt-8">
 
                             <button className="px-7 h-12 bg-[#EEF430] text-black text-[15px] font-bold hover:scale-105 transition-all duration-300">
-                                View Our Portfolio →
+                                <Link href={'/'}> View our Protfolio → </Link>
                             </button>
 
                             <button className="px-7 h-12 bg-[#EEF430] text-black text-[15px] font-bold hover:scale-105 transition-all duration-300">
-                                Work With Us →
+                                <Link href={'/solutionservice'}> Work With Us →</Link>
                             </button>
 
                         </div>

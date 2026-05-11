@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const philosophyData = [
     {
@@ -96,12 +97,12 @@ export default function WebDevelopmentPhilosophy() {
                     {/* Buttons */}
                     <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
 
-                        <button className="px-7 h-12 bg-[#EEF430] text-black text-[15px] font-bold hover:scale-105 transition-all duration-300">
-                            View Our Portfolio →
+                        <button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105" >
+                            <Link href={'/'}> View our Protfolio </Link>
                         </button>
 
-                        <button className="px-7 h-12 bg-[#EEF430] text-black text-[15px] font-bold hover:scale-105 transition-all duration-300">
-                            Work With Us →
+                        < button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105" >
+                            <Link href={'/solutionservice'}> Work With Us </Link>
                         </button>
 
                     </div>

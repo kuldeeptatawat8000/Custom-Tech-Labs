@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function OperatingDoctrine() {
     const apperData = [
         {
@@ -67,11 +69,12 @@ export default function OperatingDoctrine() {
             ))}
 
             <div className="flex flex-col sm:flex-row pt-6 gap-3 md:gap-4">
-                <button className="text-sm md:text-[14px] font-bold px-4 py-2 bg-[#EEF430] rounded">
-                    View our Portfolio
+                <button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105">
+                    <Link href={'/'}> View our Protfolio </Link>
                 </button>
-                <button className="text-sm md:text-[14px] font-bold px-4 py-2 bg-[#EEF430] rounded">
-                    Work With Us
+
+                <button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105">
+                    <Link href={'/solutionservice'}> Work With Us </Link>
                 </button>
             </div>
         </section></>

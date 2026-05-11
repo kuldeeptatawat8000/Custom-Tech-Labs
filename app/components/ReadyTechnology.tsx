@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ReadyTechnology() {
   return (
@@ -20,11 +21,11 @@ export default function ReadyTechnology() {
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-3 mt-2">
           <button className="text-sm md:text-[14px] font-medium py-2 px-4 rounded-sm bg-black text-white">
-            👉 DOWNLOAD OUR PORTFOLIO
+            <Link href={'/'}>👉 DOWNLOAD OUR PORTFOLIO</Link>
           </button>
 
           <button className="text-sm md:text-[14px] font-medium py-2 px-4 rounded-sm bg-black text-white">
-            👉 CONTACT US TODAY
+            <Link href={'/custom-app-developement'}>👉 CONTACT US TODAY</Link>
           </button>
         </div>
       </div>

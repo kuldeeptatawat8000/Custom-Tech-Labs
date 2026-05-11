@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -16,8 +17,8 @@ export default function Banner() {
         <p className="text-[16px]  sm:text-2xl">We bridge the gap between complex engineering and human <br className="md:block hidden" /> intuition to build tech that users actually enjoy using.</p>
         <div className="flex gap-4 justify-center items-center md:justify-start md:items-start">
 
-          <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]">View our Protfolio</button>
-          <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]">Work With Us</button>
+          <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/'}>View our Protfolio</Link></button>
+          <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/solutionservice'}>Work With Us</Link></button>
         </div>
 
       </section>

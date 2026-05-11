@@ -3,6 +3,7 @@ import { MdOutlineSettingsSuggest } from "react-icons/md";
 import { FaCottonBureau } from "react-icons/fa";
 import { TbDeviceMobileDollar } from "react-icons/tb";
 import { BsArrowRight } from "react-icons/bs";
+import Link from "next/link";
 
 export default function MakeTheBiggest() {
     return (
@@ -22,12 +23,9 @@ export default function MakeTheBiggest() {
                     </div>
                     <h2 className="text-center text-[12px] md:text-[16px] italic font-normal">No matter your industry, the goal stays the same: <span className="font-bold"> Build a custom e-commerce system that supports how your business runs today—and how it grows tomorrow.</span></h2>
                     <div className="flex gap-3 justify-start items-start w-full">
-                        <button className="text-sm md:text-[14px] font-bold px-5 flex gap-2 items-center py-2 bg-[#EEF430] rounded">
-                            View our Portfolio <BsArrowRight />
-                        </button>
-                        <button className="text-sm md:text-[14px] font-bold px-5 flex gap-2 items-center py-2 bg-[#EEF430] rounded">
-                            Work With Us <BsArrowRight />
-                        </button>
+                        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]" > <Link href={'/'}> View our Protfolio </Link> </button >
+                        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]" > <Link href={'/solutionservice'}> Work With Us </Link></button >
+
                     </div>
                 </div>
             </section>

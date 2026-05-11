@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 
 export default function CaseStudio() {
@@ -18,7 +19,7 @@ export default function CaseStudio() {
                         <h2 className="text-[16px]  font-normal">We’ve built systems for healthcare operations, retail platforms, educational ecosystems, construction workflows, and manufacturing environments helping them replace inefficient processes with systems that reduce errors and improve visibility.
                         </h2>
                         <button className="text-sm md:text-[14px] font-bold px-5 flex gap-2 items-center py-2 bg-[#EEF430] rounded">
-                            View our Portfolio <BsArrowRight />
+                            <Link href={'/'}>View our Portfolio <BsArrowRight /> </Link>
                         </button>
                     </div>
                 </div>

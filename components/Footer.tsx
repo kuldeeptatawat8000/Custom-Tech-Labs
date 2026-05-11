@@ -9,9 +9,9 @@ export default function Footer() {
   return (
     <>
       <footer className="w-full px-4 md:px-20 py-6 flex justify-center items-center">
-        
+
         <div className="w-full bg-black text-white rounded-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-6 md:gap-0 px-4 md:px-10 py-6">
-          
+
           {/* LOGO */}
           <Link href="/">
             <Image
@@ -28,7 +28,7 @@ export default function Footer() {
 
             {/* ABOUT */}
             <li className="flex flex-col gap-1">
-              <Link className="text-[14px] font-medium" href="/">About</Link>
+              <Link className="text-[14px] font-medium" href="/about">About</Link>
               <Link className="text-[12px] text-[#EEF430]" href="/">Our Story</Link>
               <Link className="text-[12px] text-[#EEF430]" href="/">Careers</Link>
             </li>
@@ -37,14 +37,14 @@ export default function Footer() {
             <li className="flex flex-col gap-1">
               <Link className="text-[14px] font-medium" href="/">Quick Links</Link>
               <Link className="text-[12px] text-[#EEF430]" href="/">Home</Link>
-              <Link className="text-[12px] text-[#EEF430]" href="/">Contact</Link>
+              <Link className="text-[12px] text-[#EEF430]" href="/custom-app-developement">Contact</Link>
             </li>
 
             {/* SERVICES */}
             <li className="flex flex-col gap-1">
-              <Link className="text-[14px] font-medium" href="/">Our Services</Link>
-              <Link className="text-[12px] text-[#EEF430]" href="/">Services</Link>
-              <Link className="text-[12px] text-[#EEF430]" href="/">Services</Link>
+              <Link className="text-[14px] font-medium" href="/solutionservice">Our Services</Link>
+              <Link className="text-[12px] text-[#EEF430]" href="/solutionservice">Services</Link>
+              <Link className="text-[12px] text-[#EEF430]" href="/solutionservice">Services</Link>
             </li>
 
             {/* CONNECT */}

@@ -1,10 +1,11 @@
 'use client';
+import Link from "next/link";
 import { apperData } from "./approachData";
 
 export default function OurApproach() {
   return (
     <section className="w-full flex flex-col gap-4 justify-start items-center px-4 md:px-10 lg:px-28 py-10">
-      
+
       <h1 className="rounded-xl px-6 py-1 bg-black text-[#eef430] font-bold text-lg md:text-[24px]">
         Our Approach
       </h1>
@@ -36,12 +37,8 @@ export default function OurApproach() {
       ))}
 
       <div className="flex flex-col sm:flex-row pt-6 gap-3 md:gap-4">
-        <button className="text-sm md:text-[14px] font-bold px-4 py-2 bg-[#EEF430] rounded">
-          View our Portfolio
-        </button>
-        <button className="text-sm md:text-[14px] font-bold px-4 py-2 bg-[#EEF430] rounded">
-          Work With Us
-        </button>
+        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/'}>View our Protfolio</Link></button>
+        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/solutionservice'}>Work With Us</Link></button>
       </div>
     </section>
   );

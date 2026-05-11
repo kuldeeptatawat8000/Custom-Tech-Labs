@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 
@@ -73,10 +74,10 @@ export default function OurApproach() {
 
             <div className="flex flex-col sm:flex-row pt-6 gap-3 md:gap-4">
                 <button className="text-sm md:text-[14px] font-bold px-4 py-2 bg-[#EEF430] rounded">
-                    View our Portfolio
+                    <Link href={'/'}>View our Portfolio </Link>
                 </button>
                 <button className="text-sm md:text-[14px] font-bold px-4 py-2 bg-[#EEF430] rounded">
-                    Work With Us
+                    <Link href={'/solutionservice'}> Work With Us </Link>
                 </button>
             </div>
         </section></>

@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MainBanner() {
     return (
@@ -21,8 +22,8 @@ export default function MainBanner() {
                         <h2 className="text-[16px] font-semibold">At Custom Labs, we deliver e-commerce development services that feel simple to use, easy to manage, and built to grow with you.</h2>
                         <h3 className="text-[16px] font-normal ">Your e-commerce system shouldn’t slow you down- it should move your business forward.</h3>
                         <div className="flex gap-4">
-                            <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]">View our Protfolio</button>
-                            <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]">Work With Us</button>
+                            <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/'}>View our Protfolio</Link></button>
+                            <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/solutionservice'}>Work With Us</Link></button>
                         </div>
                     </div>
                 </div>

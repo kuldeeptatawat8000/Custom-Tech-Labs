@@ -5,7 +5,8 @@ import ForYourCustomers from "./components/ForYourCustomers";
 import WebDevelopmentPhilosophy from "./components/WebDevelopmentPhilosophy";
 import CaseStudio from "./components/CaseStudio";
 import SectorsWeBuild from "./components/SectorsWeBuild";
-import CustomApp from "../custom-app-developement/page";
+import CustomApplicationsImpact from "./components/CustomApplicationsImpact";
+
 
 export const metadata: Metadata = {
     title: "Custom Website Development",
@@ -21,7 +22,7 @@ export default function CustomWebiste() {
             <WebDevelopmentPhilosophy />
             <CaseStudio />
             <SectorsWeBuild />
-            <CustomApp />
+            <CustomApplicationsImpact />
         </>
     )
 }

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { CgAdd } from "react-icons/cg";
 import { buyData } from './buyOnlineData';
+import Link from "next/link";
 export default function BuyingOnline() {
     return (
         <>
@@ -52,8 +53,8 @@ export default function BuyingOnline() {
                     <h2 className=" text-[12px] font-bold italic pb-3">A store that feels easy to trust - and even easier to buy from.</h2>
                     <div className="flex  gap-4">
 
-                        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]">View our Protfolio</button>
-                        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]">Work With Us</button>
+                        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/'}>View our Protfolio</Link></button>
+                        <button className="w-34.5 h-7.5 text-black text-[14px] font-bold rounded-[3px] cursor-pointer px-2  bg-[#EEF430]"><Link href={'/solutionservice'}>Work With Us</Link></button>
                     </div>
                 </div>
             </div>

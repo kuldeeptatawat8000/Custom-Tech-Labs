@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BannerPage() {
     return (
@@ -33,12 +34,12 @@ export default function BannerPage() {
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center md:items-start">
 
-                    <button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105">
-                        View our Portfolio
+                    <button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105" >
+                        <Link href={'/'}> View our Protfolio </Link>
                     </button>
 
-                    <button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105">
-                        Work With Us
+                    < button className="w-full sm:w-40 h-11 bg-[#EEF430] text-black text-[14px] sm:text-[15px] font-bold rounded-md cursor-pointer transition-all duration-300 hover:scale-105" >
+                        <Link href={'/solutionservice'}> Work With Us </Link>
                     </button>
 
                 </div>
