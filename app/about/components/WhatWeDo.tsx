@@ -34,7 +34,7 @@ export default function WhatWeDo() {
                 <div className="flex w-full flex-wrap flex-col md:flex-row gap-10 justify-center items-center">
                     {
                         services.map((item, idx) => (
-                            <div key={idx} className="md:w-107.5 flex flex-col justify-between items-start py-5 w-full px-5 shadow-2xl shadow-gray-400 h-39.5 border-l-14 border-[#eff430] ">
+                            <div key={idx} className="md:w-107.5 flex flex-col justify-between items-start py-5 w-full px-5 shadow-xl shadow-gray-300 h-39.5 border-l-14 border-[#eff430] ">
                                 <GoArrowUpRight className=" self-end text-4xl font-bold" />
                                 <div>
                                     <h3 className=" text-[16px] font-semibold">{item.name}</h3>

@@ -5,7 +5,7 @@ import OurMission from "./components/OurMission";
 import OurPhilosophy from "./components/OurPhilosophy";
 import PeopleWork from "./components/PeopleWork";
 import SetsUsApart from "./components/SetsUsApart";
-import SmallNav from "./components/SmallNav";
+// import SmallNav from "./components/SmallNav";
 import WhatDesign from "./components/WhatDesign";
 import WhatWeDo from "./components/WhatWeDo";
 
@@ -18,7 +18,7 @@ export default function About() {
     return (
         <>
             <MainPage />
-            <SmallNav />
+            {/* <SmallNav /> */}
             <OurMission />
             <SetsUsApart />
             <PeopleWork />

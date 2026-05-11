@@ -36,12 +36,15 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${albert.variable} ${abeezee.variable} h-full antialiased`}
     >
-      <body>
-        <div className="max-w-384 mx-auto min-h-full  ">
-          <div className="w-[90%] mx-auto bg-white text-black">
-            <Header />
-            {children}
-            <Footer />
+      <body className="w-full bg-gray-300">
+        <div className="w-full bg-gray-300">
+
+          <div className="max-w-360 bg-gray-300 mx-auto min-h-full  ">
+            <div className=" mx-auto bg-white text-black">
+              <Header />
+              {children}
+              <Footer />
+            </div>
           </div>
         </div>
       </body>

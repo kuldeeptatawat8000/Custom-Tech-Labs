@@ -8,7 +8,7 @@ export default function PeopleWork() {
                     <h1 className="  relative left-2 top-20  md:top-10 w-1/2 md:left-20 text-[20px] sm:text-[25px] lg:text-[32px] font-semibold">The people behind the work</h1>
                 </div>
 
-                <div className="lg:w-[85%] w-full flex md:py-10 py-5 flex-col justify-center items-center gap-10 mx-auto ">
+                <div className="lg:w-[85%] w-full flex md:py-10 py-5 flex-col justify-center items-center gap-5 mx-auto ">
                     <div className='w-full min-h-73 flex justify-center items-center flex-col md:flex-row gap-8 '>
                         <div className="md:w-102 px-5 sm:px-20 md:px-0 w-full h-72.25">
                             <Image className="object-cover w-full h-full object-top" src={'/about/p1.jpg'} width={407} height={289} alt='Divakar...' />
@@ -38,7 +38,7 @@ export default function PeopleWork() {
                         </div>
                     </div>
 
-                    <div className='w-full min-h-73 flex md:py-10 py-5 justify-center items-center flex-col md:flex-row gap-8 '>
+                    <div className='w-full min-h-73 flex md:py-0 py-5 justify-center items-center flex-col md:flex-row gap-8 '>
                         <div className="md:w-102 px-5 sm:px-20 md:px-0 w-full h-72.25">
                             <Image className="object-cover w-full h-full object-top" src={'/about/p3.jpg'} width={407} height={289} alt='Divakar...' />
                         </div>

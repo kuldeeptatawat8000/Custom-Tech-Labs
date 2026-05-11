@@ -7,7 +7,7 @@ export default function OurPhilosophy() {
             <div className="max-w-7xl mx-auto flex flex-col items-center gap-10">
 
                 {/* Heading */}
-                <h1 className="bg-[#eef430] px-6 py-2 text-2xl md:text-4xl font-bold text-center">
+                <h1 className="bg-[#eef430] px-10 w-3/4 rounded-md py-2 text-2xl md:text-4xl font-bold text-center">
                     Our Philosophy
                 </h1>
 
@@ -36,10 +36,10 @@ export default function OurPhilosophy() {
                                 Technology with purpose.
                             </span>
 
-                            <br />
-                            Powered by strategy.
-                            <br />
-                            Designed for people.
+                            <span className="text-[#a6a6a6]"> <br />
+                                Powered by strategy.
+                                <br />
+                                Designed for people.</span>
                         </h3>
                     </div>
 
