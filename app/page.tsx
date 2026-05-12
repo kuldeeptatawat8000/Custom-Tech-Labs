@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <>
       <Banner />
-     <SmallNavBar />
-       <UserExperience />
+      <SmallNavBar />
+      <UserExperience />
       <BigTechs />
       <SilderProfile />
-      <ReadyTechnology /> 
+      <ReadyTechnology />
 
     </>
   );

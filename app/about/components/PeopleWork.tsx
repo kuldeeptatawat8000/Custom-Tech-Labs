@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function PeopleWork() {
     return (
         <>
-            <section className="w-full mb-26 flex md:justify-center md:items-center flex-col relative h-auto">
+            <section className="w-full mt-10 mb-26 flex md:justify-center md:items-center flex-col relative h-auto">
                 <div className="caseStuies relative w-full h-35 text-white  border-[#eef430] bg-black ">
                     <h1 className="  relative left-2 top-20  md:top-10 w-1/2 md:left-20 text-[20px] sm:text-[25px] lg:text-[32px] font-semibold">The people behind the work</h1>
                 </div>
@@ -56,7 +56,7 @@ export default function PeopleWork() {
                 </div>
 
             </section>
-
+            <div className="border-2 border-[#e2dbdb] w-full mb-5"></div>
         </>
     )
 }

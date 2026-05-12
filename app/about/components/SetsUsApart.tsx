@@ -13,18 +13,18 @@ export default function SetsUsApart() {
                     <div className=" w-full md:w-[80%] h-auto py-2 rounded-2xl px-4 text-white text-center flex justify-between items-center bg-[#979797]">
                         <div className="w-1/3 border-r border-white">
                             <h3 className="text-[#eff430]">EMPATHY</h3>
-                            <h3>User</h3>
-                            <h3>Behavior First</h3>
+                            <h3 className="font-bold">User</h3>
+                            <h3 className="font-bold">Behavior First</h3>
                         </div>
                         <div className="w-1/3 md:text-[16px] text-[12px]">
                             <h3 className="text-[#eff430]">ENGINEERING</h3>
-                            <h3>Enterprise-Grade</h3>
-                            <h3>System </h3>
+                            <h3 className="font-bold">Enterprise-Grade</h3>
+                            <h3 className="font-bold">System </h3>
                         </div>
                         <div className="w-1/3 border-l border-white" >
                             <h3 className="text-[#eff430]">OUTCOMES</h3>
-                            <h3>Real Business</h3>
-                            <h3>Impact</h3>
+                            <h3 className="font-bold">Real Business</h3>
+                            <h3 className="font-bold">Impact</h3>
                         </div>
                     </div>
                 </div>

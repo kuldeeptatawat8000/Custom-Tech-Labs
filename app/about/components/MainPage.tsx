@@ -5,7 +5,7 @@ import { design } from "./smallNavData";
 export default function MainPage() {
     return (
         <>
-            <section className="w-full relative lg:px-20 mb-0 sm:mb-10  lg:mb-15 px-5  md:h-100">
+            <section className="w-full  relative lg:px-20 mb-0 sm:mb-10  lg:mb-15 px-5  md:h-100">
                 <div className="md:flex justify-end items-end">
                     <Image
                         src="/about/main.png"
@@ -27,7 +27,7 @@ export default function MainPage() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-19.75 mt-0 md:mt-0 pt-1">
+                <div className="w-full  h-19.75 mt-0 md:mt-0 pt-1">
 
                     <ul className="w-full min-h-10 bg-black py-5 text-white flex justify-center overflow-x-scroll md:text-[14px] text-[10px]  scrollBar items-center gap-9">
                         {design.map((item) => (
