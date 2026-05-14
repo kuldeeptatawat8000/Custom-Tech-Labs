@@ -35,7 +35,7 @@ export default function Header() {
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/solutionservice">What we do</Link></li>
           <li><Link href="/system-integration">Our Results</Link></li>
-          <li><Link href="/custom-website-developement">Insight</Link></li>
+          <li><Link href="/custom-website-developement">Insights</Link></li>
           <button className="px-3 py-1 text-black rounded bg-[#EEF430]">
             <Link href={'/custom-app-developement'}>Contact Us</Link>
           </button>
