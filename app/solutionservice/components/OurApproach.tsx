@@ -4,7 +4,7 @@ import { apperData } from "./approachData";
 
 export default function OurApproach() {
   return (
-    <section className="w-full flex flex-col gap-4 justify-start items-center px-4 md:px-10 lg:px-28 py-10">
+    <section className="w-full bg-[#f5f5f5] flex flex-col gap-4 justify-start items-center px-4 md:px-10 lg:px-28 py-10">
 
       <h1 className="rounded-xl px-6 py-1 bg-black text-[#eef430] font-bold text-lg md:text-[24px]">
         Our Approach

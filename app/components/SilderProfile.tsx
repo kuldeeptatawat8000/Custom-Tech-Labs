@@ -30,16 +30,16 @@ export default function SliderProfile() {
         {/* CONTAINER */}
         <div
           ref={scrollRef}
-          className="flex gap-6 md:gap-10 overflow-x-auto scroll-smooth no-scrollbar pb-8 snap-x snap-mandatory"
+          className="flex gap-6 md:gap-10 overflow-x-hidden scroll-smooth no-scrollbar pb-8 snap-x snap-mandatory"
         >
           {slideData.map((data, idx) => (
             <div
               key={idx}
-              className="w-[320px] md:min-w-[calc(50%-20px)] bg-[#A6A6A6] flex flex-col gap-5 rounded-lg p-6 md:p-8 snap-start shadow-lg flex-shrink-0"
+              className="w-115 h-85.25 md:min-w-[calc(50%-20px)] bg-[#A6A6A6] flex flex-col gap-5 rounded-lg p-6 md:p-8 snap-start shadow-lg shrink-0"
             >
               {/* PROFILE SECTION */}
               <div className="flex gap-4 items-center">
-                <div className="relative w-20 h-20 md:w-24 md:h-24 flex-shrink-0">
+                <div className="relative w-20 h-20 md:w-24 md:h-24 shrink-0">
                   <Image
                     src={data.img}
                     alt={data.fistName}
@@ -75,13 +75,13 @@ export default function SliderProfile() {
         {/* CONTROLS */}
         <button
           onClick={() => scroll('left')}
-          className="absolute -left-5 top-1/2 -translate-y-1/2 bg-white shadow-xl text-black p-3 rounded-full hidden md:block z-10 hover:scale-110 transition-transform"
+          className="absolute -left-5 top-1/2 -translate-y-1/2 bg-white shadow-xl text-black p-3 rounded-full hidden  z-10 hover:scale-110 transition-transform"
         >
           ←
         </button>
         <button
           onClick={() => scroll('right')}
-          className="absolute -right-5 top-1/2 -translate-y-1/2 bg-white shadow-xl text-black p-3 rounded-full hidden md:block z-10 hover:scale-110 transition-transform"
+          className="absolute -right-5 top-1/2 -translate-y-1/2 bg-white shadow-xl text-black p-3 rounded-full hidden  z-10 hover:scale-110 transition-transform"
         >
           →
         </button>

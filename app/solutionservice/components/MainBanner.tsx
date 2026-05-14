@@ -30,7 +30,7 @@ export default function MainBanner() {
 
             </section>
 
-
+            <div className="border-15 border-[#eef430] w-full"></div>
 
         </>
     )
