@@ -10,7 +10,7 @@ import WhatDesign from "./components/WhatDesign";
 import WhatWeDo from "./components/WhatWeDo";
 
 export const metadata: Metadata = {
-    title: "About Page | CTL",
+    title: "About Page | CTL web",
     description: `Strategic. Human-Centered. Tech That Works for People.`,
 };
 export default function About() {
